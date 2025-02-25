@@ -1,0 +1,2 @@
+1 . Given a two strings text and pattern find the first occurance of str1 if found print its index of not found print -1
+
