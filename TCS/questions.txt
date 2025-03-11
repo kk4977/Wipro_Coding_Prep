@@ -1,0 +1,177 @@
+1. Non-Repeating Element
+Problem: Given an array of integers, find the first non-repeating element.
+
+Example:
+Input: [4, 5, 1, 2, 0, 4, 1, 2]
+Output: 5
+
+2. Equilibrium Index of an Array
+Problem: Find the index where the sum of elements to the left is equal to the sum of elements to the right.
+
+Example:
+Input: [ -7, 1, 5, 2, -4, 3, 0 ]
+Output: 3 (since -7 + 1 + 5 = -4 + 3 + 0)
+
+3. Print Array After It Is Right Rotated K Times
+Problem: Given an array, rotate it right by K positions.
+
+Example:
+Input: [1, 2, 3, 4, 5], K = 2
+Output: [4, 5, 1, 2, 3]
+
+4. Array is a Subset of Another Array
+Problem: Check if an array is a subset of another.
+
+Example:
+Input: arr1 = [1, 2, 3, 4, 5], arr2 = [2, 4, 5]
+Output: Yes
+
+5. Find All Symmetric Pairs from a Pairs of Array
+Problem: Find pairs (a, b) where (b, a) also exists in the array.
+
+Example:
+Input: [(1, 2), (3, 4), (5, 6), (2, 1), (4, 3)]
+Output: [(1,2), (3,4)]
+
+6. Counting Rock Samples
+Problem: Count the frequency of each unique rock type in a given list.
+
+Example:
+Input: ["granite", "basalt", "granite", "shale"]
+Output: { "granite": 2, "basalt": 1, "shale": 1 }
+
+7. Reverse an Array or String
+Problem: Reverse a given array or string.
+
+Example:
+Input: "hello"
+Output: "olleh"
+
+8. Mean and Median of an Unsorted Array
+Problem: Calculate mean and median of an array.
+
+Example:
+Input: [1, 3, 4, 2, 6, 5, 8, 7]
+Output: Mean = 4.5, Median = 4.5
+
+9. Smallest and Second Smallest Elements in an Array
+Problem: Find the smallest and second smallest numbers in an array.
+
+Example:
+Input: [12, 13, 1, 10, 34, 1]
+Output: Smallest = 1, Second Smallest = 10
+
+10. Largest Element in an Array
+Problem: Find the largest number in an array.
+
+Example:
+Input: [10, 20, 4, 45, 99]
+Output: 99
+
+11. Second Largest Element in an Array
+Problem: Find the second largest number in an array.
+
+Example:
+Input: [10, 20, 4, 45, 99]
+Output: 45
+
+12. Counting Frequencies of Array Elements
+Problem: Count occurrences of each element.
+
+Example:
+Input: [1, 1, 2, 2, 2, 3]
+Output: {1: 2, 2: 3, 3: 1}
+
+13. Program for Addition of Two Matrices
+Problem: Add two matrices of the same size.
+
+Example:
+Input:
+
+lua
+Copy
+Edit
+A = [[1, 2], [3, 4]]  
+B = [[5, 6], [7, 8]]
+Output:
+
+lua
+Copy
+Edit
+[[6, 8], [10, 12]]
+14. Sort a K-Increasing-Decreasing Array
+Problem: Given an array that first increases then decreases, sort it.
+
+Example:
+Input: [1, 3, 5, 4, 2]
+Output: [1, 2, 3, 4, 5]
+
+15. Sum of Elements in a Given Array
+Problem: Compute the sum of all elements in an array.
+
+Example:
+Input: [1, 2, 3, 4]
+Output: 10
+
+16. Remove Duplicates from a Sorted Array
+Problem: Remove duplicates in a sorted array and return unique elements.
+
+Example:
+Input: [1, 1, 2, 2, 3, 4]
+Output: [1, 2, 3, 4]
+
+17. Program to Check if an Array is Sorted or Not
+Problem: Check if an array is sorted in ascending order.
+
+Example:
+Input: [1, 2, 3, 4, 5]
+Output: Yes
+
+18. Remove Duplicates from an Unsorted Array Using Map Data Structure
+Problem: Remove duplicates using a hash map.
+
+Example:
+Input: [4, 3, 2, 4, 1, 3, 2]
+Output: [4, 3, 2, 1]
+
+19. Block Swap Algorithm for Array Rotation
+Problem: Rotate an array using the block swap algorithm.
+
+Example:
+Input: [1, 2, 3, 4, 5], K = 2
+Output: [3, 4, 5, 1, 2]
+
+20. Average of an Array (Iterative and Recursive)
+Problem: Find the average of an array using iteration and recursion.
+
+Example:
+Input: [10, 20, 30, 40]
+Output: 25
+
+21. Add an Element to an Array
+Problem: Insert an element into an array.
+
+Example:
+Input: [1, 2, 3], Element = 4
+Output: [1, 2, 3, 4]
+
+22. Find Duplicates in O(n) Time and O(1) Extra Space
+Problem: Find duplicates in an array using constant space.
+
+Example:
+Input: [1, 2, 3, 1, 3, 6, 6]
+Output: [1, 3, 6]
+
+23. Find Maximum Possible Stolen Value from Houses
+Problem: Find the maximum sum a thief can steal without robbing two consecutive houses.
+
+Example:
+Input: [6, 7, 1, 30, 8, 2, 4]
+Output: 41
+
+24. Replace Each Element of the Array with Its Corresponding Rank
+Problem: Replace each element with its rank.
+
+Example:
+Input: [20, 10, 40, 30]
+Output: [2, 1, 4, 3]
