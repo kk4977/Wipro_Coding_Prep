@@ -20,7 +20,7 @@ else :
     median = n // 2
 print(*[mean, median])
 input_list = list(map(int, input().strip("[]").split(",")))
-  # output = (4.5, 4.5)
+  # output = 4.5, 4.5
 # Explanation:
 # The mean is calculated by dividing the sum of all the elements by the number of elements.     
 # The median is calculated as follows:
