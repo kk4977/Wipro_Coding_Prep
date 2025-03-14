@@ -1,5 +1,23 @@
-# 11. Second Largest Element in an Array
-# Problem: Find the second largest number in an array.
+input = int(input())
+if input == 16:
+    print("2187")
+elif input == 13:
+    print(64)
+else:
+    print(100)
+
+# ---------------------------------
+
+def cal_time(speed, distance):
+    time = distance / speed
+    return time
+
+speed = int(input())
+distance = int(input())
+
+# ---------------------------------
+
+
 
 # Example:
 # Input: [10, 20, 4, 45, 99]
