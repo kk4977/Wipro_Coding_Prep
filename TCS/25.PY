@@ -9,12 +9,12 @@ def new_dup(input_list):
     for key,value in freq.items():
             for i in range(value):
                 result_keys.append(key)
-    for num in result_keys:
+    """ for num in result_keys:
          if num in order:
-             pass  # Add logic here if needed
+             pass  # Add logic here if needed """
 
-result_keys.sort(key=lambda x: (x not in order, order.index(x) if x in order else 0))
-return result_keys
+# result_keys.sort(key=lambda x: (x not in order, order.index(x) if x in order else 0))
+# return result_keys
 input_list = [4, 3, 2, 4, 1, 3, 2]
 order = [1,2,3]
 print(new_dup(input_list))
